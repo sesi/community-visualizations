@@ -1,23 +1,23 @@
 {
-  "name": "Choropleth Map (lite)",
-  "logoUrl": "https://storage.googleapis.com/choromap-lite/choropleth.png",
-  "organization": "Data Science Campus",
-  "organizationUrl": "https://datasciencecampus.ons.gov.uk/",
-  "supportUrl": "https://github.com/datasciencecampus/community-visualizations/issues",
-  "packageUrl": "https://datastudio.google.com/reporting/d0c938d0-9e49-4781-8cab-ec159c233499/page/XEHUB",
-  "privacyPolicyUrl": "https://datasciencecampus.github.io/community-visualizations/docs/privacy-policy.html",
-  "description": "Choropleth mapping for Google Data Studio written in D3 (lite)",
-  "devMode": false,
-  "termsOfServiceUrl": "https://datasciencecampus.github.io/community-visualizations/docs/privacy-policy.html",
+  "name": "Community Visualization",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+  "organization": "Data Science Campus base code - github.com/sesi dev",
+  "organizationUrl": "https://url",
+  "termsOfServiceUrl": "https://url",
+  "supportUrl": "https://url",
+  "packageUrl": "https://url",
+  "privacyPolicyUrl": "https://url",
+  "description": "Testing Apply Filter feature on choromap-lite",
+  "devMode": true,
   "components": [{
-    "id": "choromap-lite",
-    "name": "Choropleth Map (lite)",
-    "iconUrl": "https://storage.googleapis.com/choromap-lite/choropleth.png",
-    "description": "Choropleth mapping for Google Data Studio written in D3 (lite).",
+    "id": "barChart",
+    "name": "Choromap Lite - Apply Filter Dev",
+    "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+    "description": "Bar chart written in d3.js",
     "resource": {
-      "js": "gs://choromap-lite/choromap.js",
-      "config": "gs://choromap-lite/choromap.json",
-      "css": "gs://choromap-lite/choromap.css"
+      "js": "gs://community-viz-sesi/choromap.js",
+      "config": "gs://community-viz-sesi/choromap.json",
+      "css": "gs://community-viz-sesi/choromap.css"
     }
   }]
 }
